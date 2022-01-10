@@ -30,3 +30,6 @@ console.log(userEmail);
 
 // Punto 3
 
+for (i = 0; i < emails.length; i++) {
+
+}
