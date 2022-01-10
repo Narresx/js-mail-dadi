@@ -46,7 +46,7 @@ for (let i = 0; i < emails.length; i++) {
 
 // Svolgimento esercizio 2
 
-// Punto 1
+// Punto 1 & 3
 
 const myNumber = Math.floor(Math.random() * 6) + 1;
 console.log(myNumber);
@@ -55,3 +55,11 @@ const cpuNumber = Math.floor(Math.random() * 6) + 1;
 console.log(cpuNumber);
 
 // Punto 2
+
+if (myNumber > cpuNumber) {
+    console.log('Hai vinto!')
+} else if (myNumber < cpuNumber) {
+    console.log('Hai perso!')
+} else {
+    console.log('Pareggio!')
+}
