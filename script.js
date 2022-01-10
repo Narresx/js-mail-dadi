@@ -24,3 +24,9 @@ console.table(emails);
 
 // Punto 2 
 
+const userEmail = prompt("Qual'è la tua email?");
+
+console.log(userEmail);
+
+// Punto 3
+
