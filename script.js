@@ -34,18 +34,24 @@ for (let i = 0; i < emails.length; i++) {
 
     const emailControl = emails[i];
 
+
     if (emailControl === userEmail) {
 
         console.log("L'email è corretta");
-
-        console.log(emailControl);
-    }
-
-    else if (emails != userEmail) {
+    } else if (emailControl != userEmail) {
 
         console.log("l'email è sbagliata");
-
-        console.log(emailControl);
     }
-
 }
+
+// Svolgimento esercizio 2
+
+// Punto 1
+
+const myNumber = Math.floor(Math.random() * 6) + 1;
+console.log(myNumber);
+
+const cpuNumber = Math.floor(Math.random() * 6) + 1;
+console.log(cpuNumber);
+
+// Punto 2
