@@ -24,26 +24,26 @@ console.table(emails);
 
 // Punto 2 
 
-const userEmail = prompt("Qual'è la tua email?", "pinco.pallino@hotmail.com");
+const userEmail = prompt("Qual'è la tua email?");
 
 console.log(userEmail);
 
 // Punto 3
 
+let found = false;
+
 for (let i = 0; i < emails.length; i++) {
-
     const emailControl = emails[i];
-
-
     if (emailControl === userEmail) {
-
-        console.log("L'email è corretta");
-    } else if (emailControl != userEmail) {
-
-        console.log("l'email è sbagliata");
+        found = true;
     }
 }
 
+if (found) {
+    console.log("L'email è corretta");
+} else {
+    console.log("l'email è sbagliata");
+}
 // Svolgimento esercizio 2
 
 // Punto 1 & 3
