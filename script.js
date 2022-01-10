@@ -24,12 +24,14 @@ console.table(emails);
 
 // Punto 2 
 
-const userEmail = prompt("Qual'è la tua email?");
+const userEmail = prompt("Qual'è la tua email?", "pinco.pallino@hotmail.com");
 
 console.log(userEmail);
 
 // Punto 3
 
 for (i = 0; i < emails.length; i++) {
-
+    if (i === userEmail) {
+        console.log("L'email ' corretta")
+    }
 }
