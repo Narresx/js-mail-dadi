@@ -30,8 +30,22 @@ console.log(userEmail);
 
 // Punto 3
 
-for (i = 0; i < emails.length; i++) {
-    if (i === userEmail) {
-        console.log("L'email ' corretta")
+for (let i = 0; i < emails.length; i++) {
+
+    const emailControl = emails[i];
+
+    if (emailControl === userEmail) {
+
+        console.log("L'email è corretta");
+
+        console.log(emailControl);
     }
+
+    else if (emails != userEmail) {
+
+        console.log("l'email è sbagliata");
+
+        console.log(emailControl);
+    }
+
 }
