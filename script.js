@@ -15,3 +15,12 @@ console.log('JS OK');
 */
 
 // Svolgimento esercizio 1
+
+// Punto 1
+
+const emails = ['pinco.pallino@hotmail.com', 'vivalafazza@trucko.com', 'theweekndofficial@gmail.com'];
+
+console.table(emails);
+
+// Punto 2 
+
